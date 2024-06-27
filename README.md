@@ -1,9 +1,9 @@
 # PainMonit Dataset (PMD)
 
 ## Description
-This repository summarises the code made public available for the PainMonit Dataset (PMD) publication.
+This repository summarises the code made public available for the **PainMonit Dataset** (PMD) publication.
 
-The dataset has two parts, the heat-based PainMonit Experimental Dataset ([PMED][PMED_link]) and the physiotherapy-based PainMonit Clinical Dataset ([PMCD][PMCD_link]). The code for the former can be found under the directory [PMED/](PMED/), for the latter under directory [PMCD/](PMCD/).
+The dataset has two parts, the heat-based **PainMonit Experimental Dataset** ([PMED][PMED_link]) and the physiotherapy-based **PainMonit Clinical Dataset** ([PMCD][PMCD_link]). The code for the former can be found under the directory [PMED/](PMED/), for the latter under directory [PMCD/](PMCD/).
 
 A more detailed description of the dataset can be found in the paper '**An Experimental and Clinical Physiological Signal Dataset for Automated Pain Recognition**' published in *Scientific Data* can be found under following [link][paper_link].
 
