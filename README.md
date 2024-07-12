@@ -57,7 +57,7 @@ A more detailed description of the dataset can be found in the paper '**An Exper
 - Functions on how the heater signal was cleaned can be found in the [heater.py](PMED/heater.py) script.
 
 ## How to use the PMCD
-- Go to the according subdirectory [PMCD](PMCD/)
+- Go to the subdirectory [PMCD](PMCD/)
     ```bash 
     cd PMCD
     ```
