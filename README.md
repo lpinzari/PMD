@@ -9,13 +9,14 @@ A more detailed description of the dataset can be found in the paper '**An Exper
 
 ## How to use this repository
 - Clone the project
-    ```bash 
+    ```bash
     git clone https://github.com/gouverneurp/PMD
+    git clone https://github.com/lpinzari/PMD.git
     ```
 
 - Install Python (tested under [Python 3.12](https://www.python.org/downloads/release/python-3120/)).
 
-- Create a Python environment and activate it. 
+- Create a Python environment and activate it.
     Windows:
     ```bash
     python -m venv venv
@@ -28,13 +29,13 @@ A more detailed description of the dataset can be found in the paper '**An Exper
     ```
 
 - Install the requirements
-    ```bash 
+    ```bash
     pip install -r requirements.txt
     ```
 
 ## How to use the PMED
 - Go to the subdirectory [PMED](PMED/)
-    ```bash 
+    ```bash
     cd PMED
     ```
 
@@ -48,7 +49,7 @@ A more detailed description of the dataset can be found in the paper '**An Exper
 - After creating the segmented dataset, a Machine Learning pipeline can be applied. An example of such can be found in the following paper '[Explainable Artificial Intelligence (XAI) in Pain Research: Understanding the Role of Electrodermal Activity for Automated Pain Recognition](https://www.mdpi.com/1424-8220/23/4/1959)'. The code is available on [GitHub](https://github.com/gouverneurp/XAIinPainResearch) as well.
 
 - If you want to read in the original raw data files, you can do so in Python with the following code:
-    ```python 
+    ```python
     pd.read_csv(filename, sep=";", decimal=",")
     ```
     where _filename_ is the path to the file of one subject.
@@ -58,7 +59,7 @@ A more detailed description of the dataset can be found in the paper '**An Exper
 
 ## How to use the PMCD
 - Go to the subdirectory [PMCD](PMCD/)
-    ```bash 
+    ```bash
     cd PMCD
     ```
 - Place the PMCD dataset (available under [link][PMCD_link]) in the directories under [dataset](PMCD/dataset/) following the description in the [README](PMCD/dataset/README.md) file there.
@@ -69,7 +70,7 @@ A more detailed description of the dataset can be found in the paper '**An Exper
     ```
 
 - If you want to want to read in the original raw data files, you can do so by using the functions in the [read_data.py](PMCD/read_data.py) script:
-    ```python 
+    ```python
     python read_data.py
     ```
 
